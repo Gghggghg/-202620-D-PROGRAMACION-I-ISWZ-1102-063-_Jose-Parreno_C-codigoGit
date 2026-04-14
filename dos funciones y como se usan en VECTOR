@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+void fe(int vector[], int n);
+void printo (int vector[], int n);
+int main ()
+{
+    int n;
+    int vector[n];
+    printf("ingrese el tamaño del vector");
+    scanf("%d", &n);
+   fe(vector, n);
+   printf("vector: ");
+   printo(vector, n);
+    return 0;
+}
+void fe(int vector[], int n)
+    {
+    for (int i = 0; i < n; ++i)
+    {
+       
+        vector[i] = rand() % 101;
+        
+    }
+}
+void printo (int vector[], int n)
+{
+for (int i = 0; i < n; ++i)
+   {
+       printf("%d ", vector[i]);
+   }
+}
