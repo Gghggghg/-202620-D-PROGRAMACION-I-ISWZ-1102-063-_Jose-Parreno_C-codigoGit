@@ -14,6 +14,7 @@ int main ()
    printo(vector, n);
     return 0;
 }
+// se puede usar vector"alias"
 void fe(int vector[], int n)
     {
     for (int i = 0; i < n; ++i)
@@ -23,6 +24,7 @@ void fe(int vector[], int n)
         
     }
 }
+// se puede usar vector"alias"
 void printo (int vector[], int n)
 {
 for (int i = 0; i < n; ++i)
